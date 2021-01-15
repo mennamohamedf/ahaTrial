@@ -4,6 +4,7 @@ import {Redirect} from 'react-router-dom';
 import {Button} from 'react-bootstrap';
 import Navbar from '../NavbarHR.js';
 
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class AddNewDepartment extends Component {
     constructor(props){
         super(props);

@@ -10,6 +10,7 @@ import Modal from 'react-modal';
 
  
 
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class ViewCompensation extends Component{
     constructor(){
         super();

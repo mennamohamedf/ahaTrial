@@ -8,6 +8,7 @@ import {useHistory} from 'react-router-dom';
 import Navbar from '../NavbarInstructor'
 
 
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class ViewProfileAM extends Component{
 constructor(){
     super();

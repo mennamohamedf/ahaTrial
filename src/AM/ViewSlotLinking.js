@@ -10,6 +10,7 @@ import Navbar from '../NavbarAM'
 
  
 
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class ViewSlotLinking extends Component{
     constructor(){
         super();

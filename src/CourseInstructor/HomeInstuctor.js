@@ -14,6 +14,7 @@ import HomeHOD from '../hod/HODhomepage';
 import HomeAM from '../AM/Homepage'
 
 
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
    
 
 

@@ -5,6 +5,7 @@ import Navbar from "../NavbarHR.js";
 
 
 
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class AddLocation extends Component{
 
     constructor(){

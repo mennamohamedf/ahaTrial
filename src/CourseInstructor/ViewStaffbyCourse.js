@@ -12,6 +12,8 @@ import Navbar from '../NavbarInstructor'
 import axios from 'axios';
 import Modal from 'react-modal';
 
+
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 const Container = styled.div`
     display:flex;
     align-text:center;

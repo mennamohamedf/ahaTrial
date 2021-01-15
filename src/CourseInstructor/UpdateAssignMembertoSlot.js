@@ -7,6 +7,8 @@ import axios from "axios";
 import {toast} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css'
 toast.configure(); 
+
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 class UpdateAssignMembertoSlot extends Component{
 
     constructor(){

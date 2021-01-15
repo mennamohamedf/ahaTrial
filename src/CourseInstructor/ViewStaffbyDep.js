@@ -8,6 +8,7 @@ import {useState} from 'react';
  import Modal from 'react-modal';
  import '../index.css'
 
+ axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 class ViewStaffbyDep extends Component{
     constructor(){
         super();

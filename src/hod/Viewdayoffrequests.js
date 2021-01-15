@@ -1,6 +1,7 @@
 import React,{Component} from 'react'
 import axios from "axios"
 import Navbar from "../NavbarHod"
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class Viewdayoffrequests extends Component{
     constructor (){
         super();

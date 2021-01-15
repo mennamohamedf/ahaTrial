@@ -4,6 +4,7 @@ import {Button} from 'react-bootstrap';
 import Navbar from '../NavbarHR.js';
 
 
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class StaffLeavesHR extends Component {
     constructor(props){
         super(props);

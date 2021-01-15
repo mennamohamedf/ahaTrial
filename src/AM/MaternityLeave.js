@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from '../NavbarAM'
 
 
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class MaternityLeave extends Component {
     constructor(props){
         super(props)

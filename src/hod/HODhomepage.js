@@ -41,6 +41,8 @@ import HomeCC from '../CourseCoordinator/CoordinatorHomeCont';
 import HomeCI from '../CourseInstructor/HomeInstuctor';
 import HomeAM from '../AM/Homepage'
 
+
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class HODhomepage extends Component{
     constructor(props){
         super(props)

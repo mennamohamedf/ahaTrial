@@ -7,6 +7,7 @@ import Staff from "./StaffComponents/Staff"
 import Navbar from "./NavbarHR.js";
 
 
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class HomeHR extends Component{
     constructor(){
         super();

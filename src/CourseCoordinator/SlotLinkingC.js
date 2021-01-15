@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import axios from "axios";
 import {Button} from 'react-bootstrap';
 import Navbar from '../NavbarCC';
+
+
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class SlotLinkingC extends Component {
     constructor(props){
         super(props);

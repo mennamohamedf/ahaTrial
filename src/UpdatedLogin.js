@@ -11,6 +11,7 @@ import HomeAM from './AM/Homepage';
 //import {Button} from 'react-bootstrap';
 
 
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class UpdatedLogin extends Component {
     constructor(props){
         super(props);

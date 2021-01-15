@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button} from 'react-bootstrap';
 
 
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class Whatever extends Component {
     constructor(){
         super();

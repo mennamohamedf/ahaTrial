@@ -10,6 +10,7 @@ import {useState} from 'react';
 
  
 
+ axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class ViewMaternity extends Component{
     constructor(){
         super();

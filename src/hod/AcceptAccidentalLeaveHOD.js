@@ -2,6 +2,8 @@ import React,{Component} from "react";
 import {Link} from "react-router-dom";
 import axios from 'axios'
 import Navbar from "../NavbarHod"
+
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class AcceptAccidentalLeaveHOD extends Component{
     constructor(props){
         super(props)

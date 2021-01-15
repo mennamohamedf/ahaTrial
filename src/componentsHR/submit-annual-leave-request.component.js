@@ -4,6 +4,8 @@ import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 import Navbar from "../NavbarHR.js";
 
+
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class SubmitAnAnnualLeaveRequest extends Component{
 
     constructor(){

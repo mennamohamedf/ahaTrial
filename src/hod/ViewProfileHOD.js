@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.css';
 import Modal from 'react-modal';
@@ -7,6 +8,8 @@ import {Redirect} from 'react-router-dom'
 import {useHistory} from 'react-router-dom';
 import Navbar from '../NavbarHod'
 
+
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 
 export default class ViewProfileAM extends Component{
 constructor(){

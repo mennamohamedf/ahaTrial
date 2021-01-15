@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import axios from "axios";
 import Navbar from '../NavbarCC';
 
+
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class UpdateCourseSlot extends Component {
     constructor(props){
         super(props);

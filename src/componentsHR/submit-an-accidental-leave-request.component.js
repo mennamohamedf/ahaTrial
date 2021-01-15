@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import Navbar from "../NavbarHR.js";
 
+
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class SubmitAnAccidentalLeaveRequest extends Component{
 
     constructor(){

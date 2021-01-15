@@ -6,6 +6,7 @@ import Navbar from '../NavbarInstructor'
 import axios from "axios";
 import Modal from 'react-modal';
 
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 class CourseCoverage extends Component{
     constructor(){
         super();

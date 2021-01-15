@@ -3,6 +3,8 @@ import axios from "axios";
 import {Button} from 'react-bootstrap';
 import { Item } from 'semantic-ui-react';
 
+
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class NotificationsHR extends Component {
     constructor(props){
         super(props);

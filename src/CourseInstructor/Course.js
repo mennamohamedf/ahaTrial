@@ -10,6 +10,8 @@ import Navbar from '../NavbarInstructor'
 import {Redirect} from 'react-router-dom'
 import {Dropdown} from "react-bootstrap";
 import axios from 'axios';
+
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 class Course extends Component{
     constructor(props){
         super(props);

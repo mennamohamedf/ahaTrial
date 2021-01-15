@@ -3,6 +3,8 @@ import axios from "axios";
 import HomeHR from './home-hr.component';
 import { Redirect } from 'react-router-dom';
 
+
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class ChangePasswordHR extends Component {
     constructor(props){
         super(props);

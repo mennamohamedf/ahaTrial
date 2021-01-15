@@ -17,6 +17,10 @@ import HomeCI from '../CourseInstructor/HomeInstuctor';
 import HomeHOD from '../hod/HODhomepage';
 
  import Modal from 'react-modal';
+
+
+ 
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class Homepage extends Component {
     constructor(props){
         super(props)

@@ -3,6 +3,8 @@ import axios from "axios";
 import HomeC from './CourseCoordinator/CoordinatorHomeCont';
 import { Redirect } from 'react-router-dom';
 
+
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class ChangePasswordAM extends Component {
     constructor(props){
         super(props);

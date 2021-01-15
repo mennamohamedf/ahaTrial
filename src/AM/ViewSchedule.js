@@ -4,6 +4,8 @@ import {Redirect} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import Navbar from '../NavbarAM' 
+
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class ViewSchedule extends Component {
     constructor(props){
         super(props)

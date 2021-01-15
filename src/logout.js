@@ -7,6 +7,7 @@ import UpdatedLogin from './UpdatedLogin';
 
 
 
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class Logout extends Component {
     constructor(props){
         super(props);

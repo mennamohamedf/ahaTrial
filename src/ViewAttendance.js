@@ -3,6 +3,7 @@ import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class ViewAttendance extends Component {
     constructor(props){
         super(props);

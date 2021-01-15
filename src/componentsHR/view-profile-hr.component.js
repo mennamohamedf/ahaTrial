@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import Navbar from "../NavbarHR.js";
 
+
+axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 export default class ViewProfileHR extends Component{
 constructor(){
     super();

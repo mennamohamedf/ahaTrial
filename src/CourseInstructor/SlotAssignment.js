@@ -7,6 +7,7 @@ import axios from "axios";
 
  import Modal from 'react-modal';
 
+ axios.defaults.baseURL=" https://ahabackend.herokuapp.com/"
 class SlotAssignment extends Component{
     constructor(){
         super();
